@@ -11,6 +11,7 @@ namespace ConsumeAPIFromMVC.Helpers
 {
     public class CustomAPIHelpers
     {
+
         public static async Task<string> GetAPIToken(string userName, string password, string apiBaseUri)
         {
             using (var client = new HttpClient())
